@@ -1,0 +1,96 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# .NET / ASP.NET Core
+# ──────────────────────────────────────────────────────────────────────────────
+
+## Build output
+bin/
+obj/
+out/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## .NET local tools
+.config/dotnet-tools.json
+
+## Publish output
+publish/
+**/publish/
+
+## Runtime & test results
+*.user
+*.userosscache
+*.suo
+*.userprefs
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+lcov.info
+
+## Entity Framework Core migrations (mantener solo si no se hace tracking de migraciones)
+# **/Migrations/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Secrets & configuración local
+# ──────────────────────────────────────────────────────────────────────────────
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# User Secrets (dotnet user-secrets)
+**/Properties/launchSettings.json
+
+# ──────────────────────────────────────────────────────────────────────────────
+# IDEs
+# ──────────────────────────────────────────────────────────────────────────────
+
+## Visual Studio
+.vs/
+*.rsuser
+*.dbmdl
+*.jfm
+*.pfx
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ──────────────────────────────────────────────────────────────────────────────
+# macOS
+# ──────────────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Logs
+# ──────────────────────────────────────────────────────────────────────────────
+*.log
+logs/
+Logs/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Docker
+# ──────────────────────────────────────────────────────────────────────────────
+.dockerignore
+docker-compose.override.yml
