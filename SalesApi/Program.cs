@@ -4,6 +4,8 @@ using SalesApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("http://localhost:5139");
+
 // ── MVC ───────────────────────────────────────────────────────────────────────
 builder.Services.AddControllers();
 
